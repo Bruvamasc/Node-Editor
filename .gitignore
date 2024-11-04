@@ -1,3 +1,18 @@
+x64/
+.vs/
+*.user
+reserve/
+*.vcxproj
+*.filters
+*.sln
+cmake/
+docs/
+resource/
+external/
+build/
+packages/
+reserve/
+
 # Prerequisites
 *.d
 
