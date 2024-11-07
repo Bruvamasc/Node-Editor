@@ -29,7 +29,7 @@ if(WIN32)
   if (BUILD_SHARED_LIBS)
     add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
       COMMAND ${CMAKE_COMMAND} -E copy_if_different
-          #$<TARGET_FILE:ImGui-SFML::ImGui-SFML>
+          $<TARGET_FILE:ImGui-SFML::ImGui-SFML>
           $<TARGET_FILE:sfml-graphics>
           $<TARGET_FILE:sfml-window>
           $<TARGET_FILE:sfml-system>

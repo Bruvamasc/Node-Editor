@@ -1,7 +1,7 @@
-#include "node_editor/utility.h"
+#include "utility.h"
 
-#include "node_editor/Node_editor.h"
-#include "node_editor/Renderer.h"
+#include "Node_editor.h"
+#include "Renderer.h"
 
 namespace node_editor { namespace detail {
 
@@ -35,8 +35,9 @@ namespace node_editor
 
 	Context_data* get_context_data()
 	{
-		return detail::node_editor ? detail::node_editor->get_context_data() :
-			nullptr;
+		return nullptr;
+		//return detail::node_editor ? detail::node_editor->get_context_data() :
+		//	nullptr;
 	}
 
 	//*************************************************************************
@@ -50,8 +51,9 @@ namespace node_editor
 
 	Render_context* get_render_context()
 	{
-		return detail::node_editor ? 
-			detail::node_editor->get_render_context() : nullptr;
+		return nullptr;
+		//return detail::node_editor ? 
+		//	detail::node_editor->get_render_context() : nullptr;
 	}
 
 	//*************************************************************************

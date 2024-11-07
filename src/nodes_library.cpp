@@ -1,6 +1,6 @@
-#include "node_editor/nodes_library.h"
+#include "nodes_library.h"
 
-#include "node_editor/Executor.h"
+#include "Executor.h"
 
 #include <iostream>
 

@@ -2,6 +2,7 @@
 
 //#include "INode_pin.h"
 #include "type_traits.h"
+#include "fwd.h"
 
 #include <vector>
 #include <list>
@@ -26,7 +27,7 @@ namespace node_editor
 			return is_has_value();
 		}
 
-		const INode_pin* internal_pin{ nullptr };
+		const IPin* internal_pin{ nullptr };
 	};
 
 	struct any_data final

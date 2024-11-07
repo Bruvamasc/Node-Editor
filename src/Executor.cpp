@@ -1,4 +1,4 @@
-#include "node_editor/Executor.h"
+#include "Executor.h"
 
 namespace node_editor
 {

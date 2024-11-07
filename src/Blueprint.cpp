@@ -1,4 +1,4 @@
-#include "node_editor/Blueprint.h"
+#include "Blueprint.h"
 
 #include <algorithm>
 #include <iostream>

@@ -3,6 +3,7 @@
 
 #include "INode.h"
 #include "IPin.h"
+#include "Renderer.h"
 
 #include <string>
 #include <string_view>
@@ -18,13 +19,11 @@ namespace node_editor
 
 namespace node_editor { namespace detail {
 
-	void draw_node_name(std::string_view name);
-
 	void begin_node(std::size_t id);
 	void end_node();
 
-	void begin_pin()
-
+	void begin_pin(std::size_t id);
+	void end_pin();
 
 } } // namespace node_editor::detail
 

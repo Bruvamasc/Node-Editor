@@ -12,6 +12,7 @@ external/
 build/
 packages/
 reserve/
+*.txt
 
 # Prerequisites
 *.d
